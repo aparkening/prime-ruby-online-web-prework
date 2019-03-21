@@ -7,6 +7,7 @@ def prime?(number)
     return false
   else 
     checking_number = 5
+    
     while checking_number * checking_number <= number
       if (number % checking_number == 0 || number % (checking_number + 2) == 0)
         puts "modulo is 0"
