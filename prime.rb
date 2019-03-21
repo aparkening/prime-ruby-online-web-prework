@@ -7,6 +7,10 @@ def prime?(number)
     return false
   end
   
+  verify_array = (..-1).to_a 
+  array.collect { |array_value| array_value ** array_value }
+  
+  
   i = 5
   while i * i <= n
     if n % i = 0 or n % (i + 2) = 0
@@ -22,9 +26,13 @@ basket.each do |apple|
   apples_taken_out += 1
 end
 
-(..-1).to_a 
-array.collect { |array_value| array_value ** 2 }
 
+
+
+ array.each do |array_value|
+    square_value = array_value ** 2
+    new_array << square_value
+  end
 
 
 
