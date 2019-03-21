@@ -10,9 +10,10 @@ def prime?(integer)
    function is_prime(n)
      if n <= 3
         return n > 1
-     else if n mod 2 = 0 or n mod 3 = 0
+     else if n % 2 = 0 or n % 3 = 0
         return false
      let i ← 5
+     
      while i * i ≤ n
         if n mod i = 0 or n mod (i + 2) = 0
             return false
