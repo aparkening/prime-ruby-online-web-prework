@@ -7,24 +7,26 @@ def prime?(number)
     return false
   end
   
-  verify_array = (..-1).to_a 
-  array.collect { |array_value| array_value ** array_value }
+  checking_array = (5..number).to_a 
+
+  
+  checking.each do |check|
+      if n % i = 0 or n % (i + 2) = 0
+      return false
+  apples_taken_out += 1
+end
   
   
   i = 5
   while i * i <= n
-    if n % i = 0 or n % (i + 2) = 0
-      return false
+
     i = i + 6
   end
   return true
 end
 
 
-basket.each do |apple|
-  puts "Taking out #{apple}"
-  apples_taken_out += 1
-end
+
 
 
 
