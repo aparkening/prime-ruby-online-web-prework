@@ -11,7 +11,7 @@ def prime?(number)
 
   
   checking.each do |check|
-      if n % i = 0 or n % (i + 2) = 0
+    if check % i = 0 or n % (i + 2) = 0
       return false
   apples_taken_out += 1
 end
