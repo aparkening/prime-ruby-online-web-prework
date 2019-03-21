@@ -6,7 +6,9 @@ def prime?(number)
   elsif (number % 2 == 0 || number % 3 == 0)
     return false
   else 
-    checking_number = 5
+    verify_array = (5..number)
+    
+    basket.each do |apple|
     
     while checking_number * checking_number <= number
       if (number % checking_number == 0 || number % (checking_number + 2) == 0)
