@@ -6,27 +6,27 @@ def prime?(number)
   else if number % 2 = 0 || number % 3 = 0
     return false
   else 
-    checking_array = (5..number).to_a 
-    checking_array.each do |check|
-      while number % check == 0 or number % (check + 2) == 0)
+    checking_number = 5
+    until checking_number * checking_number > number
+      if (number % checking_number == 0 || number % (checking_number + 2) == 0)
         return false
-
+      else 
+        checking_number = checking_number + 6
       end
     end
+    return true
   end
 end
+    
+    
+  
+  
+  
   
   checking_array.collect { |array_value| array_value * array_value }
   
 
-checking_number = 5
-until checking_number * checking_number > number
-  if number % checking_number == 0 or number % (checking_number + 2) == 0
-    return false
-  end
-  checking_number = checking_number + 6
-end
-return true
+
 
 
     let i ← 5
