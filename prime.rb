@@ -11,7 +11,7 @@ def prime?(number)
   
   checking_array = (5..number).to_a 
   checking_array.each do |check|
-    if check % i = 0 or n % (i + 2) = 0
+    while number % check == 0 or number % (check + 2) == 0)
       return false
 
   end
