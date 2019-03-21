@@ -15,12 +15,19 @@ def prime?(number)
       return false
 
   end
-  checking_array.collect { |array_value| array_value ** array_value }
+  
+  checking_array.collect { |array_value| array_value * array_value }
   
 
 checking_number = 5
-while 5 * 5 is less than number
-check whether number % 
+while checking_number * checking_number is less than number
+  if number % checking_number == 0 or number % (checking_number + 2) == 0
+    return false
+  end
+  checking_number = checking_number + 6
+end
+return true
+
 
     let i ← 5
     while i * i ≤ n
