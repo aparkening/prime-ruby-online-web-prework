@@ -9,9 +9,11 @@ def prime?(number)
     checking_number = 5
     until checking_number * checking_number > number
       if (number % checking_number == 0 || number % (checking_number + 2) == 0)
+        puts "modulo is 0"
         return false
       else 
         checking_number = checking_number + 6
+        puts "adding 6"
         return true
       end
     end
