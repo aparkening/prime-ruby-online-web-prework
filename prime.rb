@@ -1,26 +1,19 @@
 
 # Take an integer return boolean whether integer is a prime number
 def prime?(integer)
-  if 
-  divide by 2 and 
-  determine if whole number 
-  
-  
-  
-   function is_prime(n)
-     if n <= 3
-        return n > 1
-     else if n % 2 = 0 || n % 3 = 0
+  if integer <= 3
+    return n > 1
+  else if n % 2 = 0 || n % 3 = 0
         return false
      
      let i ← 5
      
-     i = 
+     i = 5
      
-     while i * i ≤ n
-        if n mod i = 0 or n mod (i + 2) = 0
+     while i * i <= n
+        if n % i = 0 or n % (i + 2) = 0
             return false
-        i ← i + 6
+        i = i + 6
      return true
   
   
