@@ -14,7 +14,7 @@ def prime?(number)
         return false
       else 
         checking_number = checking_number + 6
-        iterated +
+        iterated += 1
       end
     end
     return true
