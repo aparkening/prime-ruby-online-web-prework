@@ -18,7 +18,9 @@ def prime?(number)
   checking_array.collect { |array_value| array_value ** array_value }
   
 
-
+checking_number = 5
+while 5 * 5 is less than number
+check whether number % 
 
     let i ← 5
     while i * i ≤ n
