@@ -12,8 +12,8 @@ def prime?(number)
         puts "modulo is 0"
         return false
       else 
-        checking_number = checking_number + 6
         puts "adding 6 to #{checking_number}"
+        checking_number = checking_number + 6
         return true
       end
     end
