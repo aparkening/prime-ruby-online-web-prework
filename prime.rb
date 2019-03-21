@@ -1,3 +1,5 @@
+require 'benchmark'
+
 
 # Take an integer and return boolean whether integer is a prime number
 def prime?(number)
