@@ -20,7 +20,7 @@ end
   
 
 checking_number = 5
-while checking_number * checking_number <= number
+until checking_number * checking_number > number
   if number % checking_number == 0 or number % (checking_number + 2) == 0
     return false
   end
