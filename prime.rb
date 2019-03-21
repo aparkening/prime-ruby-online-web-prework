@@ -1,5 +1,5 @@
 
-# Take an integer return boolean whether integer is a prime number
+# Take an integer and return boolean whether integer is a prime number
 def prime?(number)
   if number <= 3
     return number > 1
@@ -9,12 +9,9 @@ def prime?(number)
     checking_number = 5
     while checking_number * checking_number <= number
       if (number % checking_number == 0 || number % (checking_number + 2) == 0)
-        puts "modulo is 0"
         return false
       else 
-        puts "adding 6 to #{checking_number}"
         checking_number = checking_number + 6
-        # return true
       end
     end
     return true
