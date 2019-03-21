@@ -1,7 +1,7 @@
 # Take an integer and return boolean whether integer is a prime number
 def prime?(number)
   if number < 4
-    return number > 1 && !(number % 2 == 0 || number % 3 == 0)
+    return number > 1
   elsif (number % 2 == 0 || number % 3 == 0)
     return false
   else 
