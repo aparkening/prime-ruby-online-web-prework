@@ -1,9 +1,9 @@
 
 # Take an integer return boolean whether integer is a prime number
-def prime?(integer)
-  if integer <= 3
-    return n > 1
-  else if n % 2 = 0 || n % 3 = 0
+def prime?(number)
+  if number <= 3
+    return number > 1
+  else if number % 2 = 0 || number % 3 = 0
     return false
   end
   
