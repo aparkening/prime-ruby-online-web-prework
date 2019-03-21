@@ -13,7 +13,7 @@ def prime?(number)
         return false
       else 
         checking_number = checking_number + 6
-        puts "adding 6"
+        puts "adding 6 to #{checking_number}"
         return true
       end
     end
