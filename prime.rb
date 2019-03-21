@@ -17,6 +17,7 @@ def prime?(number)
         iterated += 1
       end
     end
+    puts "Iterated #{iterated}""
     return true
   end
 end
