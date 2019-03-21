@@ -7,8 +7,6 @@ def prime?(number)
     return false
   end
   
-  
-  
   checking_array = (5..number).to_a 
   checking_array.each do |check|
     while number % check == 0 or number % (check + 2) == 0)
