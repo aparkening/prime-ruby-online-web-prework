@@ -1,6 +1,3 @@
-require 'benchmark'
-
-
 # Take an integer and return boolean whether integer is a prime number
 def prime?(number)
   if number <= 3
@@ -19,7 +16,3 @@ def prime?(number)
     return true
   end
 end
-
-puts Benchmark.measure {
-  prime?(1763)
-}
