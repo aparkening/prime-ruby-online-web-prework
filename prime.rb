@@ -10,21 +10,39 @@ def prime?(number)
   checking_array = (5..number).to_a 
 
   
-  checking.each do |check|
+  checking_array.each do |check|
     if check % i = 0 or n % (i + 2) = 0
       return false
-  apples_taken_out += 1
-end
-  
-  
-  i = 5
-  while i * i <= n
 
+  end
+  
+  
+    while i * i ≤ n
+        if n mod i = 0 or n mod (i + 2) = 0
+            return false
+        i ← i + 6
+    return true
+  
+  
+  
+  while i * i <= n
     i = i + 6
   end
   return true
 end
 
+
+        if n mod i = 0 or n mod (i + 2) = 0
+            return false
+        i ← i + 6
+
+
+    let i ← 5
+    while i * i ≤ n
+        if n mod i = 0 or n mod (i + 2) = 0
+            return false
+        i ← i + 6
+    return true
 
 
 
