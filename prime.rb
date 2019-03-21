@@ -2,6 +2,7 @@ require 'benchmark'
 
 
 # Take an integer and return boolean whether integer is a prime number
+puts Benchmark.measure {
 def prime?(number)
   if number <= 3
     return number > 1
@@ -19,3 +20,10 @@ def prime?(number)
     return true
   end
 end
+}
+
+
+  50_000.times do
+    input.map { |key, value| [key.to_sym, value] }.to_h
+  end
+}
